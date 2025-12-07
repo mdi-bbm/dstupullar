@@ -1,0 +1,30 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": ["@types/node"],
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "#app": [".nuxt/types/app/index.d.ts"],
+      "#build": [".nuxt/types/build/index.d.ts"],
+      "#imports": [".nuxt/types/imports.d.ts"],
+      "#nitro": [".nuxt/types/nitro.d.ts"],
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.vue",
+    "./**/*.d.ts",
+    ".nuxt/**/*.ts",
+    ".nuxt/**/*.vue",
+    ".nuxt/**/*.d.ts"
+, "options.vite"  ],
+  "exclude": ["node_modules", ".output", "dist"]
+}

@@ -1,0 +1,15 @@
+{
+  "detection": {},
+  "detection_percentage": {},
+  "detection_all": 0,
+  "segmentation": {
+    "total_square": {
+      "Standart_label": 21.733055555555556
+    },
+    "image_counts": {
+      "Standart_label": 25
+    }
+  },
+  "total_assets": 1,
+  "total_records": 36
+}
