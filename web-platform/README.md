@@ -55,7 +55,7 @@ npm install
 cd backend
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver
+daphne -b 0.0.0.0 -p 4864 backend.asgi:application
 ```
 
 ## Start Celery
